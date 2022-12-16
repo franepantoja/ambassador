@@ -1,0 +1,748 @@
+@font-face {
+font-family: 'Lato', sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color:#D2388C;
+}
+
+a:visited {
+  text-decoration:none;
+  color:#D2388C;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+.navbar {
+  position: absolute;
+  background-color:black  ;
+  width:100%;
+  position: absolute;
+  top:0px;
+  left:0px;
+  height:70px;
+}
+
+.navgrid {
+  position: relative;
+  top:25px;
+  display:grid;
+  column-count:1;
+  text-align:center;
+  color:black;
+  font-size:20px;
+}
+
+.navtakenbake {
+grid-column: 1;
+font-family: 'Lato', sans-serif;
+z-index: 4;
+}
+
+.number{
+ grid-column: 2;
+ font-family: 'Lato', sans-serif;
+ z-index: 4;
+ color:red;
+}
+
+.navmenu{
+  grid-column: 3;
+  font-family: 'Lato', sans-serif;
+  z-index: 4;
+}
+
+.Picture{
+  position: absolute;
+  top:50px;
+  left:0px;
+}
+
+.Loco{
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  color:#D2388C;
+  position:absolute;
+  left: 20%;
+  top: 125%;
+
+
+}
+
+.map{
+  position: absolute;
+  left:5%;
+  top: 140%;
+}
+
+.Ambassador{
+position:absolute;
+top: 50%;
+left: 230px;
+}
+
+.info{
+  color: white;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  position:absolute;
+  right:9%;
+  top: 1230px;
+}
+
+.info2{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color:#00AD46;
+  position: absolute;
+  right:14.8%;
+  top: 1320px;
+  text-align:center;
+}
+
+.phonenum{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color:#106ECA;
+  position: absolute;
+  right:17%;
+  top: 1450px;
+  text-align:center;
+}
+
+.addy{
+  color:#FFAA00;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  position: absolute;
+  right:19%;
+  top: 1520px;
+  text-align:center;
+
+}
+
+.history{
+  color:#106ECA;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  position: absolute;
+  left: 10%;
+  top:190%;
+
+}
+
+.HistoryContainer {
+  position: absolute;
+  height:600px;
+  width:100%;
+}
+
+.ahistory{
+  color:#106ECA;
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  width:620px;
+  position:absolute;
+  left: 5%;
+  top:300%;
+}
+
+.Ambassadorside{
+  position: absolute;
+  top:270%;
+  right:5%;
+  transform: scale(.6);
+}
+
+.poemtitle{
+  color:#D2388C;
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  position:absolute;
+  left: 10%;
+  top:2525px;
+}
+
+.poem{
+  color:#D2388C;
+  font-size: 20px;
+  font-style: italic;
+  font-family: 'Lato', sans-serif;
+  position:absolute;
+  left: 5%;
+  top:2570px;
+  width: 980px;
+  line-height:35px;
+}
+
+.socials{
+  font-family: 'Lato', sans-serif;
+  font-size: 25px;
+  color: white;
+  z-index: 2;
+}
+
+.bsocial{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: white;
+  height:45px;
+  width:100%;
+  background-color: #00AD46;
+  position:absolute;
+  z-index: 0;
+  top:330%;
+  left:0%;
+  text-align:center;
+}
+
+
+/* takenbakehtmlstyling */
+
+
+.title{
+  font-family: 'Lato', sans-serif;
+  font-size: 38px;
+  position:relative;
+  left: 44%;
+  top: 3%;
+  color:#106ECA;
+}
+
+.pizzapic{
+/* transform: scale(.1); */
+position:absolute;
+top:355px;
+left: 150px;
+
+}
+
+.sum{
+width:400px;
+position: absolute;
+left:60%;
+top: 220px;
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+font-style: italic;
+color:#FFAA00;
+}
+
+.option{
+color:#D2388C;
+width: 400px;
+font-family: 'Lato', sans-serif;
+position:absolute;
+right:8%;
+top:370px;
+line-height: 35px;
+
+}
+
+.tnbd{
+  color:#D2388C;
+  width:400px;
+  font-family: 'Lato', sans-serif;
+  position:absolute;
+  right:8%;
+  top:295px;
+}
+
+.ex{
+color:#FFAA00;
+width:400px;
+font-family: 'Lato', sans-serif;
+position:absolute;
+right:8%;
+top:645px;
+}
+
+.cooktitle{
+color:#FFAA00;
+width:400px;
+font-size: 20px;
+font-family: 'Lato', sans-serif;
+position:absolute;
+left:25%;
+bottom: 80px;
+}
+
+.instructions{
+color:#106ECA;
+width:400px;
+font-family: 'Lato', sans-serif;
+position:absolute;
+left:13%;
+bottom:-150px;
+line-height: 45px;
+}
+
+.bsocial2{
+  font-family: 'Lato', sans-serif;
+  font-size: 20px;
+  color: white;
+  height:30px;
+  width:100%;
+  background-color: #00AD46;
+  position:absolute;
+  z-index: 0;
+  bottom:-195px;
+  left:0%;
+  text-align:center;
+
+}
+
+.bsocial3{
+  font-family: 'Lato', sans-serif;
+  font-size: 18px;
+  color: white;
+  position:absolute;
+  bottom:-195px;
+  left:35%;
+}
+/* menu html styling */
+
+
+
+.title2{
+  font-family: 'Lato', sans-serif;
+  font-size: 38px;
+  position:relative;
+  left: 49%;
+  top: 3%;
+  color:#106ECA;
+
+}
+
+.White {
+  color:white;
+}
+
+.Pink {
+  color:#D2388C;
+}
+
+.Green {
+  color:#00AD46;
+}
+
+.Black {
+  color:black;
+}
+
+.navbarmenu {
+  position: absolute;
+  background-color:transparent  ;
+  width:100%;
+  position: absolute;
+  top:255px;
+  left:0px;
+  height:70px;
+}
+
+.navgridmenu {
+  position: relative;
+  top:25px;
+  display:grid;
+  column-count:1;
+  text-align:center;
+  color:black;
+  font-size:30px;
+}
+
+.logo{
+position:relative;
+top:50px;
+left:11%;
+transform: scale(.5);
+}
+
+.nav1{
+  position: absolute;
+  background-color: #00AD46;
+  width:100%;
+  position: absolute;
+  top:250px;
+  left:0px;
+  height:80px;
+}
+
+.nav2{
+  position: absolute;
+  background-color: #D2388C;
+  width:100%;
+  position: absolute;
+  top:1750px;
+  left:0px;
+  height:900px;
+}
+
+.nav3{
+  position: absolute;
+  background-color: #106ECA;
+  width:100%;
+  position: absolute;
+  top:4060px;
+  left:0px;
+  height:2100px;
+}
+
+.nav4{
+  position: absolute;
+  background-color: green;
+  width:100%;
+  position: absolute;
+  top:7300px;
+  left:0px;
+  height:1450px;
+}
+
+.navgrid2{
+  position: relative;
+  top:25px;
+  display:grid;
+  column-count:6;
+  text-align:center;
+  color:black;
+  font-size:20px;
+  z-index: 5;
+}
+.pizza{
+grid-column: 1;
+color:white;
+font-family: 'Lato', sans-serif;
+}
+
+.pasta{
+grid-column: 2;
+color:white;
+font-family: 'Lato', sans-serif;
+
+}
+
+.salads{
+grid-column: 3;
+color:white;
+font-family: 'Lato', sans-serif;
+
+}
+
+.sandwiches{
+grid-column: 4;
+color:white;
+font-family: 'Lato', sans-serif;
+}
+
+.appetizers{
+grid-column: 5;
+color:white;
+font-family: 'Lato', sans-serif;
+}
+
+.drinks{
+grid-column: 6;
+color:white;
+font-family: 'Lato', sans-serif;
+}
+
+/* pizza */
+
+.pizzabox{
+
+}
+
+.pizzat{
+  color:#D2388C;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  position:absolute;
+  left:5%;
+  top:390px;
+}
+
+.pdes1{
+  position: absolute;
+  color: white;
+  font-size:20px;
+  top:490px;
+  left:5%;
+  font-family: 'Lato', sans-serif;
+}
+
+.PizzaContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:900px;
+  column-width: 33%;
+  top:300px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Pizza-Item-Header {
+  color:#D2388C;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Pizza-Item {
+  color:white;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
+
+.One {
+  grid-column: 1;
+}
+
+.Three {
+  grid-column: 3;
+}
+
+
+
+/* pasta */
+
+.pastat{
+position: absolute;
+top:1800px;
+color:black;
+font-family: 'Lato', sans-serif;
+font-size: 45px;
+left:5%;
+}
+
+.pastades{
+  position: absolute;
+  color: white;
+  font-size:20px;
+  top:1900px;
+  left:5%;
+  font-family: 'Lato', sans-serif;
+  width:70%;
+}
+
+.PastaContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:500px;
+  column-width: 33%;
+  top:840px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.Pasta-Item-Header {
+  color:black;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Pasta-Item {
+  color:white;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+
+/* salads */
+
+.saladst{
+  color: #00AD46;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  position:absolute;
+  left:5%;
+  top:2700px;
+}
+
+.saladsdes{
+  position: absolute;
+  color: white;
+  font-size:20px;
+  top:2800px;
+  left:5%;
+  font-family: 'Lato', sans-serif;
+  width:70%;
+}
+
+.SaladContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:500px;
+  column-width: 33%;
+  top:1270px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Salad-Item-Header {
+  color:#00AD46;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Salad-Item {
+  color:white;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* sandwiches */
+
+.sandwichest{
+  color: black;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  position:absolute;
+  left:5%;
+  top:4110px;
+}
+
+.sandwichesdes{
+  position: absolute;
+  color: white;
+  font-size:20px;
+  top:4200px;
+  left:5%;
+  font-family: 'Lato', sans-serif;
+  width:70%;
+}
+
+.subdes{
+  width:75%;
+  color: white;
+  font-size:20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.SandwichesContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:900px;
+  column-width: 33%;
+  top:2100px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Sandwiches-Item-Header {
+  color:black;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Sandwiches-Item {
+  color:white;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
+
+
+/* drinks */
+
+.Appetizerst{
+position: relative;
+top:3050px;
+color:green;
+font-family: 'Lato', sans-serif;
+font-size: 45px;
+left:5%;
+}
+
+
+.AppetizersContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:1000px;
+  column-width: 33%;
+  top:3050px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Appetizers-Item-Header {
+  color:green;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Appetizers-Item {
+  color:white;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
+
+/* drinks */
+
+.drinkst{
+  position: absolute;
+  top:7350px;
+  color:white;
+  font-family: 'Lato', sans-serif;
+  font-size: 45px;
+  left:5%;
+}
+
+.drinksub{
+  position: absolute;
+  top:7450px;
+  left:5%;
+  width:100%;
+  color: white;
+  font-size:20px;
+  font-family: 'Lato', sans-serif;
+}
+
+.drinksContainer {
+  position: relative;
+  display:grid;
+  grid-template-columns: auto auto auto;
+  background-color:transparent;
+  height:1200px;
+  column-width: 33%;
+  top:3300px;
+  margin-left: 60px;
+  font-family: 'Lato', sans-serif;
+}
+
+
+.Drinks-Item-Header {
+  color:white;
+  font-size:25px;
+  font-family: 'Lato', sans-serif;
+}
+
+.Drinks-Item {
+  color:black;
+  text-align:left;
+  font-size:20px;
+  width:80%;
+  font-family: 'Lato', sans-serif;
+}
